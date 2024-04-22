@@ -12,7 +12,7 @@ def function2(x):
 
 # Определение центров, к которым стремятся частицы (экстремумы функций)
 centers = np.array([[0, function1(0)], [np.pi, function2(np.pi)]])
-
+1
 
 # Функция для вычисления приспособленности (fitness) каждой частицы
 def calculate_fitness(particles):
